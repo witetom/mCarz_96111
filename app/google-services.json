@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "918058477499",
+    "firebase_url": "https://mcarz-a4912.firebaseio.com",
+    "project_id": "mcarz-a4912",
+    "storage_bucket": "mcarz-a4912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918058477499:android:310c3abae960fa89",
+        "android_client_info": {
+          "package_name": "com.example.jack.mcarz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918058477499-6ultko9hkvhe0gp09uve5iaabmgn9h6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exmaple.jack.mcarz",
+            "certificate_hash": "28ac4e066bef0dfd7a3229633960eae3b72a9614"
+          }
+        },
+        {
+          "client_id": "918058477499-9595an093jc10e563kb7hl006p9cpgr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqALE2ZPm-HedfV1ilV5GQl2v_mduHDDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918058477499-9595an093jc10e563kb7hl006p9cpgr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

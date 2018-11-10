@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile:"
+            android:id="@+id/prof1"
+            android:textSize="30dp"
+            android:textColor="#000"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lay"
+    android:layout_below="@+id/prof1">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_add_black_24dp"
+            android:background="@drawable/boder"
+
+            android:id="@+id/image1"/>
+</RelativeLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay2"
+            android:layout_below="@id/lay"
+            android:padding="5dp">
+
+<TableRow>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:id="@+id/text"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text2"
+        android:hint="ama@gmail.com"
+        android:id="@+id/edit"
+
+
+        android:layout_marginTop="15dp"/>
+
+</TableRow>
+            <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/text1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/edit1"
+                android:hint="amstrong Apple"
+                android:layout_height="wrap_content"
+
+                />
+            </TableRow>
+            <TableRow>
+            <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:id="@+id/text2"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:hint="ama@gmail.com"
+                android:id="@+id/edit2"
+
+
+                android:layout_marginTop="15dp"/>
+            </TableRow>
+        </TableLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:text="My Cars:"
+    android:textSize="20dp"
+    android:id="@+id/t1"
+    android:layout_below="@id/lay2"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/t1"
+            android:background="@drawable/border">
+
+            <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="CarNickname"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/text3" />
+
+            <TextView
+                android:text="Brand"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/text4"
+                android:padding="10dp"
+                android:background="@drawable/border"/>
+            <TextView
+                android:text="Registartion"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/text5"
+                android:padding="10dp"
+                />
+        </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:hint="Wife A"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/text6" />
+
+                <TextView
+                    android:hint="BMW"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/text7"
+                    android:padding="10dp"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:hint="KAB 205w"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/text8"
+                    android:padding="10dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

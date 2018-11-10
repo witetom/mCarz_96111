@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/vp" android:title="ViewProfile" android:icon="@drawable/ic_person_black_24dp"/>
+    <item android:id="@+id/addcar" android:title="Add car" android:icon="@drawable/ic_add_black_24dp"/>
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_settings_black_24dp"/>
+    <item android:id="@+id/about" android:title="About!!!"/>
+    <item android:id="@+id/faqs" android:title="FAQs?"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_power_settings_new_black_24dp"/>
+
+</menu>

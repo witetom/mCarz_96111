@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BookCar For service"
+        android:paddingBottom="30dp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:text="Username:"
+                android:textColor="#000"
+                />
+            <EditText
+                android:hint="enter username or email"
+                android:inputType="text"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Phone Number:"
+                android:textColor="#000"
+                />
+            <EditText
+
+                android:hint="work/mobile/home"
+                android:inputType="number"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Registation:"
+                android:textColor="#000"
+                />
+            <EditText
+                android:hint="KAB 205w"
+                android:inputType="text"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="StartDate:"
+                android:textColor="#000"
+                />
+            <EditText
+                android:hint="0/00/0000"
+                android:inputType="date"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="EndDate:"
+                android:textColor="#000"
+                />
+            <EditText
+                android:hint="0/00/0000"
+                android:inputType="date"
+                />
+
+        </TableRow>
+
+
+
+
+            <TextView
+                android:text="type of service"
+                android:textColor="#000"
+                />
+            <CheckBox
+                android:text="full"/>
+
+            <CheckBox
+                android:text="Few parts serviced"/>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:clickable="true"
+            android:background="@drawable/boder"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Book"
+            android:textColor="#000"
+            android:onClick="true"
+            tools:ignore="OnClick" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
